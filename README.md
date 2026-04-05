@@ -13,11 +13,7 @@
 
 ### 🌍 Breathe Better, Live Better! 🌿💨
 
-<<<<<<< HEAD
-[Live Demo](https://airpure-detection.netlify.app/) | [Backend API](https://airpure-real-time-air-pollution.onrender.com) | [Report Issue](https://github.com/subhambxt03/AirPure---Real-Time-Air-Pollution-Monitoring-System.git)
-=======
-[Live Demo](https://your-app.vercel.app) | [Backend API](https://your-api.onrender.com) | [Report Issue](https://github.com/your-username/air-pollution-monitor/issues)
->>>>>>> 751e49b14ff12b1310a8a49e2ed14794391ee7ec
+[Live Demo](https://airpure-detection.netlify.app/) | [Backend API](https://airpure-real-time-air-pollution.onrender.com) | [Report Issue](https://github.com/subhambxt03/AirPure---Real-Time-Air-Pollution-Monitoring-System/issues)
 
 </div>
 
@@ -81,25 +77,25 @@ The application fetches live data from OpenWeatherMap Air Pollution API, calcula
 - Collapsible sidebar navigation
 - Gradient color scheme (Green & Purple themes)
 - Smooth animations and transitions
-- Toast notifications for user actions
 
 ---
-sss
+
 ## 🖼️ Screenshots
 
 <p align="center">
-<<<<<<< HEAD
-  <img src="src/assets/screenshot-home.png" width="900" alt="Home Dashboard"/>
+  <img src="screenshots/home.png" width="900" alt="Home Dashboard"/>
 </p>
 
 <p align="center">
-  <img src="src/assets/screenshot-airquality.png" width="900" alt="Air Quality Section"/>
+  <img src="screenshots/airquality.png" width="900" alt="Air Quality Section"/>
 </p>
 
 <p align="center">
-  <img src="src/assets/screenshot-compare.png" width="900" alt="City Comparison"/>
+  <img src="screenshots/compare.png" width="900" alt="City Comparison"/>
 </p>
-=======
+
+---
+
 ## 🛠️ Tech Stack
 
 ### Frontend
@@ -147,6 +143,8 @@ The application uses US EPA standards for AQI calculation based on PM2.5 concent
 
 **Formula used:**
 AQI = ((AQI_high - AQI_low) / (Conc_high - Conc_low)) × (Conc - Conc_low) + AQI_low
+
+text
 
 ---
 
@@ -196,14 +194,17 @@ air-pollution-monitor/
     ├── vite.config.js
     ├── tailwind.config.js
     └── index.html
-
 🚀 Installation
 bash
-git clone https://github.com/your-username/air-pollution-monitor.git
-cd air-pollution-monitor/backend
+# Clone the repository
+git clone https://github.com/subhambxt03/AirPure---Real-Time-Air-Pollution-Monitoring-System.git
+
+# Backend setup
+cd AirPure---Real-Time-Air-Pollution-Monitoring-System/backend
 npm install
 npm run dev
-bash
+
+# Frontend setup (new terminal)
 cd ../frontend
 npm install
 npm run dev
@@ -221,13 +222,11 @@ NODE_ENV=development
 Frontend (.env)
 env
 VITE_API_URL=http://localhost:5000/api
-
 📱 Responsive Design
 Device	Breakpoint	Layout Behavior
 Desktop	> 1024px	Full sidebar, side-by-side cards, expanded charts
 Tablet	768px - 1024px	Collapsible sidebar, responsive grid layout
 Mobile	< 768px	Hamburger menu, stacked cards, full-width components
-
 🔒 Security Features
 JWT token-based authentication with expiration
 
@@ -250,7 +249,6 @@ Professional Dashboard	Modern UI with eco-friendly design
 Complete Analytics	Charts, trends, and PDF reports
 Health-Focused	Actionable recommendations for users
 Production Ready	Scalable architecture with error handling
-
 📈 Use Cases
 User Type	Application
 General Public	Check daily air quality before outdoor activities
@@ -259,14 +257,12 @@ Parents	Ensure safe outdoor play for children
 Elderly & Sensitive Groups	Receive alerts when air quality worsens
 Researchers	Analyze pollution trends across cities
 Environmental Activists	Track and compare pollution levels
-
-
-
 📧 Contact
-Project Link: https://github.com/your-username/air-pollution-monitor
+Project Link: https://github.com/subhambxt03/AirPure---Real-Time-Air-Pollution-Monitoring-System
 
-Live Demo: https://your-app.vercel.app
+Live Demo: https://airpure-detection.netlify.app/
 
+Backend API: https://airpure-real-time-air-pollution.onrender.com
 
 <div align="center">
 ⭐ Star this project if you find it useful! ⭐

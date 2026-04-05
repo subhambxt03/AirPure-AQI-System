@@ -4,8 +4,7 @@ import { useAuth } from '../context/AuthContext';
 import axios from 'axios';
 
 
-const API_URL = 'https://airpure-real-time-air-pollution.onrender.com/api';
-
+const API_URL = 'https://airpure-aqi-system.onrender.com/api';
 export default function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');

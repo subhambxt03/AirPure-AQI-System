@@ -3,7 +3,7 @@ import { useNavigate, Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import axios from 'axios';
 
-const API_URL = 'https://airpure-real-time-air-pollution.onrender.com/api';
+const API_URL = 'https://airpure-aqi-system.onrender.com/api';
 
 export default function Signup() {
     const [name, setName] = useState('');

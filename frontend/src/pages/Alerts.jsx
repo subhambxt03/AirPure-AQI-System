@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import photo2 from '../assets/photo2.png';
 
-const API_URL = 'https://airpure-real-time-air-pollution.onrender.com/api';
+const API_URL = 'https://airpure-aqi-system.onrender.com/api';
 
 export default function Alerts() {
   const [threshold, setThreshold] = useState(150);

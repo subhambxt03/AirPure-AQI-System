@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
-const API_URL = 'https://airpure-real-time-air-pollution.onrender.com/api';
+const API_URL = 'https://airpure-aqi-system.onrender.com/api';
 
 const calculateRealAQI = (apiValue, pm25) => {
   const baseAQI = { 1: 25, 2: 75, 3: 125, 4: 175, 5: 250 };

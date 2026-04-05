@@ -4,7 +4,7 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 
-const API_URL = 'https://airpure-real-time-air-pollution.onrender.com/api';
+const API_URL = 'https://airpure-aqi-system.onrender.com/api';
 
 // Fix marker icons
 delete L.Icon.Default.prototype._getIconUrl;

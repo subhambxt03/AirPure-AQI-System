@@ -6,7 +6,7 @@ import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, BarElement, Title, Tooltip, Legend);
 
 
-const API_URL = 'https://airpure-real-time-air-pollution.onrender.com/api';
+const API_URL = 'https://airpure-aqi-system.onrender.com/api';
 
 export default function Reports() {
   const [city, setCity] = useState('');

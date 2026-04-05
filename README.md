@@ -13,7 +13,7 @@
 
 ### 🌍 Breathe Better, Live Better! 🌿💨
 
-[Live Demo](https://airpure-detection.netlify.app/) | [Backend API](https://airpure-real-time-air-pollution.onrender.com) | [Report Issue](https://github.com/subhambxt03/AirPure---Real-Time-Air-Pollution-Monitoring-System/issues)
+[Live Demo](https://airpure-aqi-system.netlify.app/) | [Backend API](https://airpure-aqi-system.onrender.com) | [Report Issue](https://github.com/subhambxt03/AirPure-AQI-System.git)
 
 </div>
 
@@ -194,34 +194,7 @@ air-pollution-monitor/
     ├── vite.config.js
     ├── tailwind.config.js
     └── index.html
-🚀 Installation
-bash
-# Clone the repository
-git clone https://github.com/subhambxt03/AirPure---Real-Time-Air-Pollution-Monitoring-System.git
 
-# Backend setup
-cd AirPure---Real-Time-Air-Pollution-Monitoring-System/backend
-npm install
-npm run dev
-
-# Frontend setup (new terminal)
-cd ../frontend
-npm install
-npm run dev
-🔧 Environment Variables
-Backend (.env)
-env
-PORT=5000
-DB_HOST=localhost
-DB_USER=root
-DB_PASSWORD=yourpassword
-DB_NAME=air_pollution_db
-JWT_SECRET=your_super_secret_key
-OPENWEATHER_API_KEY=your_api_key_here
-NODE_ENV=development
-Frontend (.env)
-env
-VITE_API_URL=http://localhost:5000/api
 📱 Responsive Design
 Device	Breakpoint	Layout Behavior
 Desktop	> 1024px	Full sidebar, side-by-side cards, expanded charts
@@ -257,12 +230,13 @@ Parents	Ensure safe outdoor play for children
 Elderly & Sensitive Groups	Receive alerts when air quality worsens
 Researchers	Analyze pollution trends across cities
 Environmental Activists	Track and compare pollution levels
+
 📧 Contact
-Project Link: https://github.com/subhambxt03/AirPure---Real-Time-Air-Pollution-Monitoring-System
+Project Link: https://github.com/subhambxt03/AirPure-AQI-System.git
 
-Live Demo: https://airpure-detection.netlify.app/
+Live Demo: https://airpure-aqi-system.netlify.app/
 
-Backend API: https://airpure-real-time-air-pollution.onrender.com
+Backend API: https://airpure-aqi-system.onrender.com
 
 <div align="center">
 ⭐ Star this project if you find it useful! ⭐

@@ -83,15 +83,15 @@ The application fetches live data from OpenWeatherMap Air Pollution API, calcula
 ## 🖼️ Screenshots
 
 <p align="center">
-  <img src="AQIproject/home.png" width="900" alt="Home Dashboard"/>
+  <img src="screenshot/home.png" width="900" alt="Home Dashboard"/>
 </p>
 
 <p align="center">
-  <img src="AQIproject/airquality.png" width="900" alt="Air Quality Section"/>
+  <img src="screenshot/airquality.png" width="900" alt="Air Quality Section"/>
 </p>
 
 <p align="center">
-  <img src="AQIproject/compare.png" width="900" alt="City Comparison"/>
+  <img src="screenshot/compare.png" width="900" alt="City Comparison"/>
 </p>
 
 ---

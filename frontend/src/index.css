@@ -1,0 +1,149 @@
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+@import 'leaflet/dist/leaflet.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    @apply bg-gray-50 dark:bg-slate-900 text-gray-900 dark:text-white;
+    font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+    overflow: hidden;
+  }
+  
+  #root {
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  input, 
+  textarea, 
+  select {
+    @apply text-gray-900 dark:text-white bg-white dark:bg-slate-800;
+  }
+  
+  input::placeholder,
+  textarea::placeholder {
+    @apply text-gray-400 dark:text-gray-500;
+  }
+  
+  input:focus,
+  textarea:focus,
+  select:focus {
+    @apply outline-none ring-2 ring-green-500;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-white dark:bg-slate-800 rounded-xl shadow-md p-6;
+  }
+}
+
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 0.3s ease-out;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-100 dark:bg-slate-800;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-400 dark:bg-slate-600;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-500 dark:bg-slate-500;
+}
+
+.leaflet-container {
+  @apply rounded-xl shadow-md;
+  height: 350px;
+  width: 100%;
+  z-index: 10;
+  background: #f8f9fa !important;
+}
+
+/* Force map tiles to be visible in both themes */
+.leaflet-tile-pane {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Remove dark mode filter that was causing blur */
+.dark .leaflet-tile-pane {
+  filter: none !important;
+}
+
+/* Ensure map controls are visible */
+.leaflet-control-zoom a {
+  @apply bg-white dark:bg-slate-700 text-gray-800 dark:text-white;
+}
+
+/* Map popup text - always dark for readability */
+.leaflet-popup-content {
+  color: #1e293b !important;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+}
+
+.leaflet-popup-content-wrapper {
+  @apply rounded-lg shadow-lg;
+}
+
+.leaflet-control-attribution {
+  @apply text-xs text-gray-500 dark:text-gray-400 bg-white/80 dark:bg-slate-800/80;
+}
+
+
+.leaflet-marker-icon {
+  filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.3));
+}
+
+@media (max-width: 768px) {
+  .leaflet-container {
+    height: 280px;
+  }
+}
+
+@media (max-width: 480px) {
+  .leaflet-container {
+    height: 250px;
+  }
+}
+@media (min-width: 480px) {
+  .xs\:inline {
+    display: inline;
+  }
+}
+
+.xs\:inline {
+  display: none;
+}

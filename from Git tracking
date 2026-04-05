@@ -1,0 +1,17 @@
+[33mcommit 85ddc12a12146dbcc9157e6c0b62f930cdbe5005[m
+Author: subhambxt <bshtsbhm@gmail.com>
+Date:   Sat Apr 4 23:39:47 2026 +0530
+
+    Initial commit without .env ,node_modules
+
+[33mcommit e883ad13dbdac52c65cf7dbe7e9edb67f38c58ed[m
+Author: subhambxt <bshtsbhm@gmail.com>
+Date:   Sat Apr 4 15:56:13 2026 +0530
+
+    Configure Aiven MySQL database
+
+[33mcommit ea30f531c563e4ccc226c41f869348f89c166a12[m
+Author: subhambxt <bshtsbhm@gmail.com>
+Date:   Sat Apr 4 14:16:27 2026 +0530
+
+    Initial commit
